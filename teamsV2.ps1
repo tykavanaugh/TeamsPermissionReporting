@@ -1,9 +1,9 @@
 ﻿Connect-MicrosoftTeams
 $credential = Get-Credential
 
-$PSEmailServer = "harborg-com.mail.protection.outlook.com" #MX endpoint for harborg.com domain addresses
+$PSEmailServer =  #MX endpoint for domain addresses
 $SMTPport = 25 #does not work on other SMTP ports
-$sendEmail = 'tkavanaugh <tkavanaugh@harborg.com>' #change this to your account
+$sendEmail = 'user <email@domain.com>' #change this to your account
 
 
 #add if statement to check datetime to execute process
